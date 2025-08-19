@@ -1,10 +1,7 @@
 
 <html lang="id" class="scroll-smooth">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Reiki Lentera Hati Indonesia - Temukan Cahaya Diri</title>
-    
+  
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     
@@ -23,7 +20,7 @@
     <style>
         body {
             font-family: 'Poppins', sans-serif;
-            background-color: #111827; /* Cool Dark Blue */
+            background-color: #0A0B1A; /* Deep Indigo */
             color: #E5E7EB; /* Gray 200 */
         }
         .font-heading {
@@ -31,25 +28,25 @@
             font-weight: 800;
         }
         .hero-bg {
-            background: linear-gradient(to top, #111827 10%, rgba(17, 24, 39, 0.7)), url('https://images.unsplash.com/photo-1506126613408-eca0ce68773?q=80&w=1200&auto=format&fit=crop') center center/cover no-repeat;
+            background: linear-gradient(to top, #0A0B1A 10%, rgba(10, 11, 26, 0.7)), url('https://images.unsplash.com/photo-1506126613408-eca0ce68773?q=80&w=1200&auto=format&fit=crop') center center/cover no-repeat;
         }
         .gradient-text {
-            background: linear-gradient(90deg, #38BDF8, #FBCFE8);
+            background: linear-gradient(90deg, #A855F7, #EC4899);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
         .btn-primary {
-            background-color: #38BDF8; /* Sky 400 */
+            background-color: #A855F7; /* Purple 500 */
             color: #111827;
             font-weight: 700;
             border-radius: 9999px;
             padding: 0.8rem 1.8rem;
             transition: all 0.3s ease;
-            box-shadow: 0 4px 20px rgba(56, 189, 248, 0.3);
+            box-shadow: 0 4px 20px rgba(168, 85, 247, 0.3);
         }
         .btn-primary:hover {
             transform: translateY(-3px) scale(1.05);
-            box-shadow: 0 7px 25px rgba(56, 189, 248, 0.4);
+            box-shadow: 0 7px 25px rgba(168, 85, 247, 0.4);
         }
         .card-bg {
             background: rgba(255, 255, 255, 0.05);
@@ -58,7 +55,7 @@
             -webkit-backdrop-filter: blur(10px);
         }
         .swiper-pagination-bullet-active {
-            background: #38BDF8 !important;
+            background: #A855F7 !important;
         }
         .fade-in {
             opacity: 0;
@@ -82,7 +79,7 @@
     <header class="fixed top-0 left-0 w-full z-50 bg-gray-900/50 backdrop-blur-sm">
         <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
             <a href="#" class="font-heading text-xl font-bold text-white">
-                Lentera<span class="text-sky-400">Hati</span>
+                Lentera<span class="text-purple-400">Hati</span>
             </a>
             <a href="#pendaftaran" class="btn-primary text-sm">
                 Daftar Kelas
@@ -93,7 +90,7 @@
     <!-- Hero Section -->
     <section class="hero-bg min-h-screen flex items-center justify-center text-center pt-20 px-4">
         <div>
-            <div class="inline-block bg-sky-400/10 text-sky-300 text-sm font-semibold px-4 py-1 rounded-full mb-4">
+            <div class="inline-block bg-purple-400/10 text-purple-300 text-sm font-semibold px-4 py-1 rounded-full mb-4">
                 PEMBUKAAN KELAS GELOMBANG 37
             </div>
             <h1 class="font-heading text-4xl md:text-6xl text-white leading-tight">
@@ -112,6 +109,28 @@
 
     <main class="overflow-x-hidden">
         
+        <!-- About Reiki Section - NEW -->
+        <section class="py-20 px-6">
+            <div class="text-center max-w-3xl mx-auto fade-in">
+                <h2 class="font-heading text-3xl text-white">Apa Itu Reiki?</h2>
+                <p class="mt-4 text-gray-300 max-w-2xl mx-auto">
+                    Reiki adalah teknik penyembuhan energi kuno dari Jepang yang bekerja dengan menyalurkan "energi kehidupan universal" melalui sentuhan lembut. Praktik ini membantu menyeimbangkan energi tubuh, pikiran, dan jiwa, sehingga mendukung proses penyembuhan alami.
+                </p>
+                <div class="mt-8 text-left max-w-xl mx-auto">
+                    <h3 class="font-bold text-xl text-white">Manfaat Utama Reiki:</h3>
+                    <ul class="mt-4 list-disc list-inside space-y-2 text-gray-400">
+                        <li>Mengurangi stres dan kecemasan</li>
+                        <li>Meningkatkan kualitas tidur</li>
+                        <li>Meringankan rasa sakit fisik</li>
+                        <li>Mendukung keseimbangan emosional</li>
+                        <li>Memperkuat sistem kekebalan tubuh</li>
+                        <li>Meningkatkan kejernihan mental dan fokus</li>
+                        <li>Membuka pintu menuju pertumbuhan spiritual</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
         <!-- Programs Section -->
         <section class="py-20 px-6">
             <div class="text-center max-w-3xl mx-auto fade-in">
@@ -123,7 +142,7 @@
                 <div class="card-bg rounded-xl fade-in">
                     <button class="accordion-header w-full flex justify-between items-center text-left p-5">
                         <span class="text-lg font-semibold text-white">Usui Tradisional Reiki</span>
-                        <i data-feather="chevron-down" class="w-5 h-5 text-sky-400 transition-transform duration-500 accordion-icon"></i>
+                        <i data-feather="chevron-down" class="w-5 h-5 text-purple-400 transition-transform duration-500 accordion-icon"></i>
                     </button>
                     <div class="accordion-content px-5">
                         <p class="text-gray-400 pb-5">Mempelajari fondasi utama penyembuhan energi, termasuk sejarah, prinsip, posisi tangan untuk menyembuhkan diri sendiri dan orang lain, serta penggunaan simbol-simbol suci Reiki untuk memperkuat aliran energi.</p>
@@ -132,18 +151,18 @@
                 <!-- Accordion Item 2 -->
                 <div class="card-bg rounded-xl fade-in">
                     <button class="accordion-header w-full flex justify-between items-center text-left p-5">
-                        <span class="text-lg font-semibold text-white">Shambala</span>
-                        <i data-feather="chevron-down" class="w-5 h-5 text-sky-400 transition-transform duration-500 accordion-icon"></i>
+                        <span class="text-lg font-semibold text-white">Shambhala</span>
+                        <i data-feather="chevron-down" class="w-5 h-5 text-purple-400 transition-transform duration-500 accordion-icon"></i>
                     </button>
                     <div class="accordion-content px-5">
-                        <p class="text-gray-400 pb-5">Menggabungkan energi Reiki dengan getaran cinta kasih dari para Ascended Masters. Shambala mempercepat proses penyembuhan dan pertumbuhan spiritual, membuka kesadaran akan multidimensionalitas diri.</p>
+                        <p class="text-gray-400 pb-5">Menggabungkan energi Reiki dengan getaran cinta kasih dari para Ascended Masters. Shambhala mempercepat proses penyembuhan dan pertumbuhan spiritual, membuka kesadaran akan multidimensionalitas diri.</p>
                     </div>
                 </div>
                 <!-- Accordion Item 3 -->
                 <div class="card-bg rounded-xl fade-in">
                     <button class="accordion-header w-full flex justify-between items-center text-left p-5">
                         <span class="text-lg font-semibold text-white">Kundalini Reiki</span>
-                        <i data-feather="chevron-down" class="w-5 h-5 text-sky-400 transition-transform duration-500 accordion-icon"></i>
+                        <i data-feather="chevron-down" class="w-5 h-5 text-purple-400 transition-transform duration-500 accordion-icon"></i>
                     </button>
                     <div class="accordion-content px-5">
                         <p class="text-gray-400 pb-5">Fokus pada aktivasi dan pembersihan jalur energi Kundalini, yaitu energi spiritual yang tertidur di dasar tulang belakang. Tujuannya adalah untuk mencapai pencerahan, meningkatkan intuisi, dan vitalitas tubuh.</p>
@@ -153,10 +172,30 @@
                 <div class="card-bg rounded-xl fade-in">
                     <button class="accordion-header w-full flex justify-between items-center text-left p-5">
                         <span class="text-lg font-semibold text-white">Ho'oponopono</span>
-                        <i data-feather="chevron-down" class="w-5 h-5 text-sky-400 transition-transform duration-500 accordion-icon"></i>
+                        <i data-feather="chevron-down" class="w-5 h-5 text-purple-400 transition-transform duration-500 accordion-icon"></i>
                     </button>
                     <div class="accordion-content px-5">
                         <p class="text-gray-400 pb-5">Teknik kuno dari Hawaii untuk pembersihan mental dan emosional. Melalui empat frasa kunci, Anda akan belajar melepaskan beban masa lalu, memaafkan, dan menciptakan kedamaian batin sejati.</p>
+                    </div>
+                </div>
+                <!-- Accordion Item 5 - NEW -->
+                <div class="card-bg rounded-xl fade-in">
+                    <button class="accordion-header w-full flex justify-between items-center text-left p-5">
+                        <span class="text-lg font-semibold text-white">Reiki White Lotus</span>
+                        <i data-feather="chevron-down" class="w-5 h-5 text-purple-400 transition-transform duration-500 accordion-icon"></i>
+                    </button>
+                    <div class="accordion-content px-5">
+                        <p class="text-gray-400 pb-5">Reiki White Lotus adalah sistem energi yang berfokus pada pemurnian mendalam, membawa kedamaian, membuka potensi spiritual.membantu membersihkan energi negatif, dan menciptakan aura yang lebih terang dan murni.</p>
+                    </div>
+                </div>
+                <!-- Accordion Item 6 - NEW -->
+                <div class="card-bg rounded-xl fade-in">
+                    <button class="accordion-header w-full flex justify-between items-center text-left p-5">
+                        <span class="text-lg font-semibold text-white">Program Khusus Lainnya</span>
+                        <i data-feather="chevron-down" class="w-5 h-5 text-purple-400 transition-transform duration-500 accordion-icon"></i>
+                    </button>
+                    <div class="accordion-content px-5">
+                        <p class="text-gray-400 pb-5">Selain kurikulum utama, kami juga menawarkan berbagai program khusus seperti pelatihan untuk menjadi Master Reiki, sesi penyembuhan jarak jauh (distant healing), dan lokakarya tematik untuk memperdalam praktik spiritual Anda.</p>
                     </div>
                 </div>
             </div>
@@ -171,32 +210,32 @@
             <div class="mt-12 grid grid-cols-1 sm:grid-cols-2 gap-8 max-w-3xl mx-auto">
                 <!-- Facility Card 1 -->
                 <div class="text-center fade-in">
-                    <div class="mx-auto bg-sky-500/10 w-16 h-16 rounded-full flex items-center justify-center">
-                        <i data-feather="life-buoy" class="w-8 h-8 text-sky-400"></i>
+                    <div class="mx-auto bg-purple-500/10 w-16 h-16 rounded-full flex items-center justify-center">
+                        <i data-feather="life-buoy" class="w-8 h-8 text-purple-400"></i>
                     </div>
                     <h3 class="mt-4 text-xl font-bold text-white">Bimbingan Gratis Tanpa Batas</h3>
                     <p class="mt-2 text-gray-400">Akses seumur hidup ke materi, konsultasi pribadi, dan bimbingan berkelanjutan tanpa biaya tambahan.</p>
                 </div>
                 <!-- Facility Card 2 -->
                 <div class="text-center fade-in">
-                    <div class="mx-auto bg-sky-500/10 w-16 h-16 rounded-full flex items-center justify-center">
-                        <i data-feather="award" class="w-8 h-8 text-sky-400"></i>
+                    <div class="mx-auto bg-purple-500/10 w-16 h-16 rounded-full flex items-center justify-center">
+                        <i data-feather="award" class="w-8 h-8 text-purple-400"></i>
                     </div>
                     <h3 class="mt-4 text-xl font-bold text-white">Mentor Profesional</h3>
                     <p class="mt-2 text-gray-400">Belajar langsung dari para praktisi dan ahli bersertifikasi yang berdedikasi pada kemajuan Anda.</p>
                 </div>
                 <!-- Facility Card 3 -->
                 <div class="text-center fade-in">
-                    <div class="mx-auto bg-sky-500/10 w-16 h-16 rounded-full flex items-center justify-center">
-                        <i data-feather="wifi" class="w-8 h-8 text-sky-400"></i>
+                    <div class="mx-auto bg-purple-500/10 w-16 h-16 rounded-full flex items-center justify-center">
+                        <i data-feather="wifi" class="w-8 h-8 text-purple-400"></i>
                     </div>
                     <h3 class="mt-4 text-xl font-bold text-white">Pembelajaran Full Daring</h3>
                     <p class="mt-2 text-gray-400">Nikmati fleksibilitas belajar dari mana saja melalui grup WhatsApp/Telegram dan sesi Zoom interaktif.</p>
                 </div>
                 <!-- Facility Card 4 -->
                 <div class="text-center fade-in">
-                    <div class="mx-auto bg-sky-500/10 w-16 h-16 rounded-full flex items-center justify-center">
-                        <i data-feather="shield" class="w-8 h-8 text-sky-400"></i>
+                    <div class="mx-auto bg-purple-500/10 w-16 h-16 rounded-full flex items-center justify-center">
+                        <i data-feather="shield" class="w-8 h-8 text-purple-400"></i>
                     </div>
                     <h3 class="mt-4 text-xl font-bold text-white">Pemurnian & Penyembuhan</h3>
                     <p class="mt-2 text-gray-400">Sesi khusus untuk membersihkan aura dan chakra, serta layanan penyembuhan jarak jauh untuk mendukung kesejahteraan Anda.</p>
@@ -208,15 +247,18 @@
         <section class="py-20">
             <div class="text-center px-6 fade-in">
                 <h2 class="font-heading text-3xl text-white">Galeri Komunitas</h2>
-                <p class="mt-2 text-gray-400">Potret kebersamaan dalam setiap sesi kami.</p>
+                <p class="mt-2 text-gray-400">Potret kebersamaan dalam setiap sesi di Lentera Hati Indonesia.</p>
             </div>
             <div class="swiper-container mt-12 fade-in" id="gallery-slider">
                 <div class="swiper-wrapper">
-                    <!-- Corrected image URLs and alt text -->
-                    <div class="swiper-slide"><img src="https://www.dropbox.com/scl/fi/dfcoznksdgnm2wehk27xa/IMG-20250408-WA0006.jpg?rlkey=k4gpc1ofdqdsh6t41vsovj6rw&st=1459vaem&raw=1" alt="Kegiatan Reiki 1" class="rounded-2xl aspect-video object-cover"></div>
-                    <div class="swiper-slide"><img src="https://www.dropbox.com/scl/fi/7olljvfvvch1ki9974hqv/IMG-20250408-WA0004.jpg?rlkey=yh1xkpa1ppsdg9w4aq4x1autc&st=qq37r1zo&raw=1" alt="Kegiatan Reiki 2" class="rounded-2xl aspect-video object-cover"></div>
-                    <div class="swiper-slide"><img src="https://www.dropbox.com/scl/fi/9jfucfcea5n26focmzcri/IMG-20230501-WA0009.jpg?rlkey=tu3i598tcwsb79mi6infnhvxe&st=unipufz7&raw=1" alt="Kegiatan Reiki 3" class="rounded-2xl aspect-video object-cover"></div>
-                    <div class="swiper-slide"><img src="https://www.dropbox.com/scl/fi/n01pu9s3ropfn4akq3lwq/FB_IMG_1755507226204.jpg?rlkey=34uque5evelk4qj17p1ugyvne&st=ydaz2ns4&raw=1" alt="Kegiatan Reiki 4" class="rounded-2xl aspect-video object-cover"></div>
+                    
+                    <!-- NEW SLIDES ADDED HERE -->
+                    <div class="swiper-slide"><img src="https://www.dropbox.com/scl/fi/9jfucfcea5n26focmzcri/IMG-20230501-WA0009.jpg?rlkey=tu3i598tcwsb79mi6infnhvxe&st=739ckvbw&raw=1" alt="Keluarga Besar" class="rounded-2xl aspect-video object-cover"></div>
+                    <div class="swiper-slide"><img src="https://www.dropbox.com/scl/fi/5z7v5msoz2zodc0a04f2p/FB_IMG_1755507390518.jpg?rlkey=7k03hq3spv6z3befufccfefrk&st=5mq3rohj&raw=1" alt="Penyembuhan Energi" class="rounded-2xl aspect-video object-cover"></div>
+                    <div class="swiper-slide"><img src="https://www.dropbox.com/scl/fi/thvo7qqg5kd0rz364jo8y/FB_IMG_1755577344404.jpg?rlkey=jdhd9c17it7m2k53h64balftm&st=2h2m4uvx&raw=1" alt="Seni Fortex" class="rounded-2xl aspect-video object-cover"></div>
+                    <div class="swiper-slide"><img src="https://www.dropbox.com/scl/fi/6j2kzfy3jmqtg4m605hqc/FB_IMG_1755577268196.jpg?rlkey=sd18vsnnasckyggpaq1xpa51t&st=stxplhah&raw=1" alt="Sesi Bimbingan" class="rounded-2xl aspect-video object-cover"></div>
+                    <div class="swiper-slide"><img src="https://www.dropbox.com/scl/fi/f94w962yhsa693vjhixqg/FB_IMG_1755576912908.jpg?rlkey=sguqdjdy36ix9l1buimreqmap&st=8n6lbth4&raw=1" alt="Kebersamaan Peserta" class="rounded-2xl aspect-video object-cover"></div>
+                    <div class="swiper-slide"><img src="https://www.dropbox.com/scl/fi/7olljvfvvch1ki9974hqv/IMG-20250408-WA0004.jpg?rlkey=yh1xkpa1ppsdg9w4aq4x1autc&st=j8pyhz1q&raw=1" alt="Lentera Hati Komomunitas" class="rounded-2xl aspect-video object-cover"></div>
                 </div>
                 <div class="swiper-pagination mt-8 relative"></div>
             </div>
@@ -229,14 +271,14 @@
             </div>
             <div class="mt-12 max-w-2xl mx-auto space-y-8">
                 <!-- Testimonial 1 -->
-                <div class="card-bg p-6 rounded-2xl border-l-4 border-sky-400 fade-in">
+                <div class="card-bg p-6 rounded-2xl border-l-4 border-purple-400 fade-in">
                     <p class="text-lg italic text-gray-200">"Ikut kelas ini adalah keputusan terbaik. Pikiran jadi lebih jernih, tidur lebih nyenyak, dan yang paling penting, saya merasa lebih 'utuh'. Mentornya sangat sabar dan komunitasnya positif banget."</p>
-                    <p class="mt-4 font-bold text-right text-white">- Maya, Karyawan Swasta</p>
+                    <p class="mt-4 font-bold text-right text-white">- cholis, Karyawan Swasta</p>
                 </div>
                 <!-- Testimonial 2 -->
                 <div class="card-bg p-6 rounded-2xl border-l-4 border-pink-300 fade-in">
                     <p class="text-lg italic text-gray-200">"Sebagai orang yang gampang cemas, materi Ho'oponopono benar-benar mengubah cara pandang saya. Belajar melepaskan beban itu ternyata melegakan. Terima kasih Lentera Hati!"</p>
-                    <p class="mt-4 font-bold text-right text-white">- Dito, Mahasiswa</p>
+                    <p class="mt-4 font-bold text-right text-white">- Dita, Mahasiswa</p>
                 </div>
             </div>
         </section>
@@ -338,3 +380,4 @@
 
 </body>
 </html>
+
